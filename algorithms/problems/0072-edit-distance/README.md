@@ -59,13 +59,14 @@ A walkthrough of my optimization on this problem
   2. The output is a min/max value, not the actual path which would need the full 2D array (matrix) and a graph search on it.
 
 
-  ## Performance Metrics (LeetCode Benchmarks)
+## Performance Metrics (LeetCode Benchmarks)
 
-| Implementation Variant   | Time (ms) |     beats       |  Memory (MB)  |       beats       |
-| **Bottom-Up 1D Array**   | **3ms**   |   **98.30%**    |  **44.47MB**  |     **98.27%**    |
-| **Top-Down 2D**          | **3ms**   |   **98.30%**    |  **46.91MB**  |     **83.99%**    |
-| **Bottom-Up 2D**         | **5ms**   |   **68.96%**    |  **47.14MB**  |     **53.26%**    |
-| **Brute Force**          |   TLE     |      N/A        |      N/A      |         N/A       |
+| Implementation Variant | Time (ms) | beats | Memory (MB) | beats |
+| :--- | :---: | :---: | :---: | :---: |
+| **Bottom-Up 1D Array** | **3ms** | **98.30%** | **44.47MB** | **98.27%** |
+| **Top-Down 2D** | **3ms** | **98.30%** | **46.91MB** | **83.99%** |
+| **Bottom-Up 2D** | **5ms** | **68.96%** | **47.14MB** | **53.26%** |
+| **Brute Force** | TLE | N/A | N/A | N/A |
 
 
 
