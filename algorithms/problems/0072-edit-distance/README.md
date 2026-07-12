@@ -6,7 +6,7 @@
 ## Summary
 - Achieved Time $O(N \times M)$, Space $O(\min(N, M))$.
 - Beats 98% of leetcode users on both time and space complexity
-- steps: BF -> Top_Down -> Bottom_Up -> Bottom_UP_Linear_time
+- steps: Brute Force $\rightarrow$ Top-Down DP $\rightarrow$ Bottom-Up DP $\rightarrow$ Bottom-UP DP Linear space
 - Learned how to push DP to its limits
 
 
